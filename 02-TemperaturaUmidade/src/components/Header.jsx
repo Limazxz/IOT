@@ -1,4 +1,4 @@
-import { useTheme } from "../hooks/useTheme";
+import { useTheme } from "../hooks/useTheme.js";
 
 export default function Header({ isConnected, lastUpdate }) {
   const { isDarkMode, toggleTheme } = useTheme();
