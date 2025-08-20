@@ -1,8 +1,8 @@
 import { useMQTT } from "./hooks/useMQTT.js";
 import Header from "./components/Header";
-import SensorCard from "./components/SensorCard";
-import StatsCard from "./components/StatsCard";
-import ConnectionInfo from "./components/ConnectionInfo";
+import SensorCard from "./components/SensorCard.jsx";
+import StatsCard from "./components/StatsCard.jsx";
+import ConnectionInfo from "./components/ConnectionInfo.jsx";
 
 function App() {
   // Configurações do MQTT
